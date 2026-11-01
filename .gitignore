@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Environment / secrets
+.env
+.banned_terms
+
+# Local data and databases
+*.duckdb
+pgdata/
+synth/data/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

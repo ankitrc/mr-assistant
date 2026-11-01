@@ -1,0 +1,92 @@
+{
+  "data_version": "data-v2",
+  "as_of_date": "2026-10-27",
+  "frozen": true,
+  "note": "Frozen synthetic dataset (fictional company 'Example Pharma'). data-v2 replaces all brand, business-unit, hospital and chemist names with synthetic ones and uses non-dialable phone numbers; structure, row counts and figures are identical to data-v1. Do not modify; build_db.py verifies these checksums.",
+  "files": {
+    "agent_action_log.parquet": {
+      "sha256": "9b5792c5dc0308079d73bde47075397dc2caa3579925a6b89cf175bd62c8c047",
+      "rows": 4262
+    },
+    "business_unit.parquet": {
+      "sha256": "d4a1a70fca7f7ba9a151587268d5cc5b9c95074dec8c91c23e313430949030e4",
+      "rows": 6
+    },
+    "calendar_day.parquet": {
+      "sha256": "1dc11c612cbbe42fd8cd376eda0badc97ac298c7d9781dbf6c18097c368e8cd2",
+      "rows": 1095
+    },
+    "call_note.parquet": {
+      "sha256": "9291c817dfe4a248b68b3b6e3f0d6a3f8fdcfee2955be0dc2178b9908a8e3db0",
+      "rows": 10300
+    },
+    "chemist.parquet": {
+      "sha256": "26b72758397235b9d11bad68f4cdbe5a59558b1d408cef305ad45d470157b7d8",
+      "rows": 240
+    },
+    "clinic.parquet": {
+      "sha256": "23befd432410808faa9f8922905c7b9e7b1845d548d09b1a45410cd446e85680",
+      "rows": 1117
+    },
+    "communication.parquet": {
+      "sha256": "c9f50024c1fcd468ac4c4c5f8f00d1bdb5bfacae355434b0bf7c72e0d89c2c11",
+      "rows": 10595
+    },
+    "content.parquet": {
+      "sha256": "50e8ab7540a833ce4e65f0a65f3dcdfd25fa9040b80683e87168223ff3c12b3a",
+      "rows": 83
+    },
+    "dcr_call.parquet": {
+      "sha256": "92e0a517dffc9ad61b516d7d68c3b288b162d10da78a4e16e103fb5d0306c2bd",
+      "rows": 30726
+    },
+    "dcr_call_product.parquet": {
+      "sha256": "c28ac0755dd958939d7dd95cd8472616b201a06cce8846810e1793d66049238c",
+      "rows": 75907
+    },
+    "doctor.parquet": {
+      "sha256": "2bcc6687b39df39604da69584343ad170f3ee91a1d35f43fe1e4905ac34d3aec",
+      "rows": 864
+    },
+    "doctor_brand_plan.parquet": {
+      "sha256": "272f7e065e81aea46e9c90960b58406611d9a4475115d3b44f4531f5496946a2",
+      "rows": 53234
+    },
+    "employee.parquet": {
+      "sha256": "430f20df8acda9a5dd66afe726405879499c56fb2524ac6c31c8c7ea612e53d5",
+      "rows": 23
+    },
+    "formulary_listing.parquet": {
+      "sha256": "82b890ce6f4077d228b9bf6f992b2a44362e94cb622740ca9d5fc7235a52185a",
+      "rows": 580
+    },
+    "geography.parquet": {
+      "sha256": "71c3535110b569eee8b07b58cfb2971bf266e3f3a78099c677ef9ec43335645e",
+      "rows": 40
+    },
+    "kpi_target.parquet": {
+      "sha256": "a87ff5d72e4c594fa7297ac1897b15a09e82148430e4c9778431d2cb8f7cd679",
+      "rows": 72
+    },
+    "mcl.parquet": {
+      "sha256": "5c46acc239bf7659cb7faa5ef03454172159f9f26105697fea676f1094c5eb04",
+      "rows": 950
+    },
+    "nba_recommendation.parquet": {
+      "sha256": "bbc4dd279ecd8fccd2098f0c39031f3d4b98c87031da73be16763d2daaa289af",
+      "rows": 1155
+    },
+    "product.parquet": {
+      "sha256": "bf5a549f2f1c5d81d8e7eafb3b16422c8f62f2de6c491ca020c22d71d8bc70f1",
+      "rows": 42
+    },
+    "rcpa_entry.parquet": {
+      "sha256": "d634f95f0e9bd8bfd70360641c8c63fc83d036f5aa044f28546733467931272d",
+      "rows": 84068
+    },
+    "tour_plan.parquet": {
+      "sha256": "653c2cda34746171b71cc29f8b94fc9c78e1b61ec9e4dafd5376db39dbaad7c1",
+      "rows": 31198
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Copy to .banned_terms (gitignored) and list the real names that must never be committed:
+# company names, brand names, division names, internal product codes, internal file names.
+# One term per line, case-insensitive. Example placeholders:
+real-company-name
+real-brand-name

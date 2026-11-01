@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mr-assistant"
+version = "0.5.1"
+description = "Agentic assistant for medical reps (fictional Indian pharma data)"
+requires-python = ">=3.11"
+dependencies = [
+    "psycopg[binary]>=3.2",
+    "psycopg-pool>=3.2",
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "duckdb>=1.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]

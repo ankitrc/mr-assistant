@@ -1,0 +1,2 @@
+# Installs the mr_assistant package (src/) with development extras; dependencies live in pyproject.toml
+-e .[dev]
